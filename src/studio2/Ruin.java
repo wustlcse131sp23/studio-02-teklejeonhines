@@ -34,7 +34,7 @@ public class Ruin {
 				if(startAmount == winLimit) {
 					System.out.println("Simulation "+simulation+": "+round+" WIN");
 					wins = wins +1;
-					simulation++;}
+					}
 				else if(startAmount == 0){
 					System.out.println("Simulation "+simulation+": "+round+" LOSE");
 					loses = loses + 1;
